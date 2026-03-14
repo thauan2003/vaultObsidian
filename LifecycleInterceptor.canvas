@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"167336d5ea39b794","type":"text","text":"O CDI ao ler o método, entende que o método possui um interceptador","x":-420,"y":-220,"width":305,"height":80},
+		{"id":"23ee7a834dfe9e89","type":"text","text":"Se sim: Commit()","x":-20,"y":170,"width":250,"height":60},
+		{"id":"62b0f05dc6f23e3e","type":"text","text":"Anota determinado método com @Interceptor","x":-402,"y":-320,"width":250,"height":60},
+		{"id":"d781657242e6893a","type":"text","text":"Antes do método poder ser executado, chamara o método do meu Interceptos, ele sabe disso por causa da anotação do método no Interceptor: @AroundInvoke","x":-430,"y":-80,"width":325,"height":140},
+		{"id":"21439810999a39e5","type":"text","text":"Meu método com @AroundInvoke cria a transação, e faz um teste para saber se o EM instanciado possui a anotação @Transacional ou não","x":-420,"y":140,"width":322,"height":120},
+		{"id":"f04381cb0cfbd9c0","x":-393,"y":340,"width":252,"height":80,"type":"text","text":"Permite a execução do método interceptado executar"}
+	],
+	"edges":[
+		{"id":"ab35fb2eb5a53147","fromNode":"62b0f05dc6f23e3e","fromSide":"bottom","toNode":"167336d5ea39b794","toSide":"top"},
+		{"id":"492a6353a6b8aaa2","fromNode":"167336d5ea39b794","fromSide":"bottom","toNode":"d781657242e6893a","toSide":"top"},
+		{"id":"96ce753fab7b37a6","fromNode":"d781657242e6893a","fromSide":"bottom","toNode":"21439810999a39e5","toSide":"top"},
+		{"id":"420b03020ec0ae2a","fromNode":"21439810999a39e5","fromSide":"right","toNode":"23ee7a834dfe9e89","toSide":"left"},
+		{"id":"26fb39095e27f335","fromNode":"23ee7a834dfe9e89","fromSide":"bottom","toNode":"f04381cb0cfbd9c0","toSide":"right"}
+	]
+}
