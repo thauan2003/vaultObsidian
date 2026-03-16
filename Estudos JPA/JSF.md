@@ -9,5 +9,6 @@ Suas implementações são:
 ![[image-4.png|318]]
 
 
-
-*Para Navegação Explícita -> "paginaExemplo?faces-redirect=true"*
+*Funcionalidades:*
+- Para Navegação Explícita -> "paginaExemplo?faces-redirect=true"*
+- Para tornar o preenchimento de um campo como obrigatório: "required=true"

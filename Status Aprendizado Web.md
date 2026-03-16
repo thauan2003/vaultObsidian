@@ -8,11 +8,11 @@ kanban-plugin: board
 
 - [ ] JavaScript
 - [ ] CSS
-- [ ] HTML
 
 
 ## Sendo Introduzido
 
+- [ ] HTML
 
 
 ## Estudos / Práticas

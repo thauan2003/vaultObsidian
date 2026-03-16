@@ -44,5 +44,8 @@
   "LifecycleInterceptor.canvas": "LiRoute",
   "Estudos JPA/JSF.md": "LiCode",
   "Estudos Java/MVCImg.md": "LiImage",
-  "Estudos JPA/ManagedBean.md": "LiCode"
+  "Estudos JPA/ManagedBean.md": "LiCode",
+  "Estudos JPA/Conversão e Validação.md": "LiCode",
+  "Estudos JPA/Ciclo de Vida JSF.md": "LiCode",
+  "Lifecycle JSF.canvas": "LiRoute"
 }

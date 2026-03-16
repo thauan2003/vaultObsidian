@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"ebc4467636f1bd9a","type":"text","text":"Usuário Acessa a aplicação pela primeira vez -> Realiza a primeira requisição","x":-400,"y":-380,"width":250,"height":60},
+		{"id":"d8df060c5bd01953","type":"text","text":"Acessa a Árvore de Componetes, armazena na Sessão","x":-400,"y":-280,"width":250,"height":60},
+		{"id":"8d3e4dba7c5e1616","type":"text","text":"Renderiza a Resposta","x":-400,"y":-180,"width":250,"height":60},
+		{"id":"6875e2e088fae0cf","x":-415,"y":-480,"width":280,"height":60,"color":"5","type":"text","text":"Acessa a Aplicação pela 1ª Vez"},
+		{"id":"296535e9a46bd8e9","type":"text","text":"Armazena no componente todos os atributos inputados como String","x":7,"y":-280,"width":250,"height":55},
+		{"id":"d740f4bb93d729d3","type":"text","text":"Faz as conversões, se houver conversores","x":7,"y":-180,"width":250,"height":60},
+		{"id":"c50b7442118b0b22","x":7,"y":40,"width":250,"height":60,"type":"text","text":"Tendo sido convertido, realiza as validações"},
+		{"id":"2afc6e6e4fba6423","x":7,"y":260,"width":250,"height":60,"type":"text","text":"Atualiza os valores do Model"},
+		{"id":"389481edd3f0bca6","type":"text","text":"Senão ja pula para a Renderização da Respota: <span style=\"color:rgb(255, 0, 0)\">erro</span>","x":367,"y":140,"width":250,"height":120},
+		{"id":"874eab44590dfc14","type":"text","text":"Senão ja pula para a Renderização da Respota: <span style=\"color:rgb(255, 0, 0)\">erro</span>","x":367,"y":-80,"width":250,"height":120},
+		{"id":"9321de438156fbf3","x":7,"y":380,"width":250,"height":60,"type":"text","text":"Invoca a Aplicação"},
+		{"id":"1ad9512ba1d28c2f","type":"text","text":"<span style=\"color:rgb(146, 208, 80)\">Renderiza a Resposta</span>","x":7,"y":500,"width":250,"height":60},
+		{"id":"cc437203228a415b","x":7,"y":620,"width":250,"height":60,"type":"text","text":"Resposta: Acessa os HTMLs de cada componente de JSF e envia ao Browser"},
+		{"id":"d651c20fca25b18c","type":"text","text":"Acessa a Visão da Árvore já criada","x":7,"y":-380,"width":250,"height":60},
+		{"id":"3a936d248e81819d","x":0,"y":-480,"width":265,"height":60,"color":"5","type":"text","text":"Inputa informações/Interage com o Sistema(Postback)"}
+	],
+	"edges":[
+		{"id":"53b68272f16cc8e6","fromNode":"d740f4bb93d729d3","fromSide":"bottom","toNode":"874eab44590dfc14","toSide":"left"},
+		{"id":"6dfadec430bcba9e","fromNode":"d740f4bb93d729d3","fromSide":"bottom","toNode":"c50b7442118b0b22","toSide":"top"},
+		{"id":"ab5b25638b7b1c02","fromNode":"296535e9a46bd8e9","fromSide":"bottom","toNode":"d740f4bb93d729d3","toSide":"top"},
+		{"id":"3c65639843ae3b9d","fromNode":"d651c20fca25b18c","fromSide":"bottom","toNode":"296535e9a46bd8e9","toSide":"top"},
+		{"id":"6e0b359169bfddca","fromNode":"ebc4467636f1bd9a","fromSide":"bottom","toNode":"d8df060c5bd01953","toSide":"top"},
+		{"id":"9ddb9cfb73755dff","fromNode":"d8df060c5bd01953","fromSide":"bottom","toNode":"8d3e4dba7c5e1616","toSide":"top"},
+		{"id":"dbf9555e8861a515","fromNode":"c50b7442118b0b22","fromSide":"bottom","toNode":"389481edd3f0bca6","toSide":"left"},
+		{"id":"81dc58183dc59a7b","fromNode":"c50b7442118b0b22","fromSide":"bottom","toNode":"2afc6e6e4fba6423","toSide":"top"},
+		{"id":"5b6cef1b65575be1","fromNode":"1ad9512ba1d28c2f","fromSide":"bottom","toNode":"cc437203228a415b","toSide":"top"},
+		{"id":"772c9764a72aeb6c","fromNode":"9321de438156fbf3","fromSide":"bottom","toNode":"1ad9512ba1d28c2f","toSide":"top"},
+		{"id":"bbbc8d0e06f5a0cd","fromNode":"2afc6e6e4fba6423","fromSide":"bottom","toNode":"9321de438156fbf3","toSide":"top"}
+	]
+}
