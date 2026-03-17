@@ -3,6 +3,7 @@
 *Conceito: Conjunto de Especificações de Persistência em Java*
 
 **Áreas Padronizadas**
+
 - API Operações
 	Operações padronizadas -> CRUD
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlignJustify",
       "LiImage",
       "LiRoute",
       "📓",
-      "LiCode",
-      "📔"
+      "LiCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,5 +49,6 @@
   "Estudos JPA/Ciclo de Vida JSF.md": "LiCode",
   "Lifecycle JSF.canvas": "LiRoute",
   "Estudos JPA/Primefaces.md": "LiCode",
-  "Estudos JPA/AJAX.md": "LiCode"
+  "Estudos JPA/AJAX.md": "LiCode",
+  "Estudos JPA/Trechos de Códigos.md": "LiAlignJustify"
 }
