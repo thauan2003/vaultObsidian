@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Fundamentos.md",
+                "file": "Estudos Java/Collections.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentos"
+              "title": "Collections"
             }
           }
         ],
@@ -252,8 +252,9 @@
   },
   "active": "70122fb3c2029c87",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Estudos JPA/Template(Facelets).md",
     "CSS/Fundamentos.md",
+    "Untitled 1.md",
     "Anotações.md",
     "CSS",
     "Estudos JPA/JPA.md",
@@ -263,7 +264,6 @@
     "Estudos JPA/Fluxo JavaWeb.canvas",
     "Estudos JPA/Enum.md",
     "Estudos JPA/Untitled.base",
-    "Estudos JPA/Untitled.md",
     "Estudos JPA/AJAX.md",
     "Estudos JPA/JSF.md",
     "image-7.png",

@@ -45,3 +45,7 @@ public static void main(String[] args) {
 
 
 3. <span style="color:rgb(0, 176, 240)">Map</span>
+
+
+
+->Lembrando sempre de não confundir: *List<> é usado para array dinamico, variavel[] é usado para array fixo*
